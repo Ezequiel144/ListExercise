@@ -1,17 +1,25 @@
+/* const root = document.getElementById('root');
+
+const element = document.createElement('h1');
+
+element.textContent = 'hola';
+
+root.append(element); 
+
+#como ejemplo
+*/
+
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
+/* import { Card } from './components/card/card.jsx' */
+/* import { PagesOne } from './pages/pagesOne.js'; */
+import { App } from './app.js';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const root = document.getElementById('root');
+/* const elem = <h2>Hola React</h2> */
+/* ReactDOM.render(_QUE_,_DONDE_); */
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+/* ReactDOM.render(<PagesOne/>,root); */
+
+ReactDOM.render(<App/>,root);

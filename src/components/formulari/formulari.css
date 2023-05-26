@@ -1,0 +1,28 @@
+.formMain{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    /* border: 1px solid blue; */
+    width: 300px;
+    margin: auto;
+}
+
+.textInput{
+    text-transform: uppercase;
+}
+
+.inputGet{
+    /* border-radius: 20px; */
+    border: 1px solid rgb(171, 171, 171);
+    padding: 3px 5px;
+}
+
+.sendButton{
+    width:fit-content;
+    margin: 0 auto;
+    background-color: rgb(45, 103, 248);
+    border: 0;
+    color: white;
+    padding:5px;
+    border-radius: 8px;
+}

@@ -1,0 +1,16 @@
+.title{
+    padding: 20px 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center
+    ;
+    background-color: rgb(35, 35, 82);
+    color: white;
+    height: 50px;
+}
+
+.textp{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

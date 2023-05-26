@@ -1,0 +1,16 @@
+.form-content{
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+    /* border: 1px solid blue; */
+    height: 100vh;
+    width: 100%;
+}
+
+.formulary{
+    padding: 10px;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+    background-color: rgb(35, 35, 82);
+    color: white;
+}

@@ -1,0 +1,8 @@
+.title-error{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+    width: 100%;
+}

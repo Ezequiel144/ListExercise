@@ -1,0 +1,15 @@
+.content-button{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.button{
+    color: white;
+    font-weight: 700;
+    border: 0;
+    border-radius: 30%;
+    padding: 10px 15px;
+    background: linear-gradient(rgb(169, 25, 107)25%,rgb(27, 27, 95)70%);
+    cursor: pointer;
+    text-decoration: none;
+}
